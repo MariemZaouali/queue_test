@@ -19,7 +19,7 @@ public class MessageReceiver {
     // default broker URL is : tcp://localhost:61616"
  
     // Name of the queue we will receive messages from
-    private static String subject = "JCG_QUEUE";
+    private static String subject = "INFO2_QUEUE";
  
     public static void main(String[] args) throws JMSException {
         // Getting JMS connection from the server
